@@ -35,9 +35,17 @@ To run the model locally, follow these steps:
 2. Place the downloaded .pth file in the same directory as the Python scripts.
 3. Run the use_model.py script to generate text, modify output location and max sequence length (max_new_tokens)
 
-### Modifying the Model
+### Files
 
-To modify the model, you can edit the model architecture and hyperparameters in `model.py` and `train_model.py`. `model.py` defines the model architecture and `train_model.py` contains the code for training the model, including setting the model parameters, loading the data, and running the training loop. You can adjust the model parameters and training settings as needed.
+1. `config.py`: Contains the hyperparameters for the model. Adjust as needed.
+
+2. `model.py`: Defines the architecture of the GPT model.
+
+3. `train_model.py`: Contains the code for training the model and saving to .pth file.
+
+4. `use_model.py`: Code for loading the trained model and generating text to specified text file.
+
+5. `utils.py`: Basic utility functions.
 
 ### References
 

@@ -34,7 +34,7 @@ dropout = 0.2
 
 
 # LOAD DATA
-with open('drake-full.txt', 'r', encoding='utf-8') as f:
+with open('training-data.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 

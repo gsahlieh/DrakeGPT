@@ -13,10 +13,6 @@ max_iters = 5000
 eval_interval = 500
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 384
-n_heads = 12
-n_layers = 12
-dropout = 0.2
 
 
 # LOAD DATA

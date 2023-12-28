@@ -8,7 +8,6 @@ batch_size = 64
 block_size = 256
 learning_rate = 3e-4
 train_split_portion = 0.9
-max_iters = 5000
 eval_interval = 500
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
@@ -162,6 +161,7 @@ class DrakeGPT(nn.Module):
             torch.arange(T, device=device))
         x = tok_emb + pos_emb
         x = self.blocks(x)
+        x = self.ln_f(x)
         logits = self.lm_head(x)
 
         if targets is None:

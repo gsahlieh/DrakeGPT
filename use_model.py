@@ -31,5 +31,5 @@ model.eval()
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
 generated_text = decode(model.generate(
     context, max_new_tokens=500)[0].tolist())
-with open('output10.txt', 'w') as f:
+with open('output.txt', 'w') as f:
     f.write(generated_text)

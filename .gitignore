@@ -1,2 +1,3 @@
 /not-upload
 *.pth
+/__pycache__

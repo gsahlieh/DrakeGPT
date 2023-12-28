@@ -35,7 +35,7 @@ To run the model locally, follow these steps:
 2. Place the downloaded .pth file in the same directory as the Python scripts.
 3. Run the use_model.py script to generate text, modify output location and max sequence length (max_new_tokens)
 
-### Files
+### Main Files
 
 1. `config.py`: Contains the hyperparameters for the model. Adjust as needed.
 

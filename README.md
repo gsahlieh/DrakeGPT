@@ -6,7 +6,7 @@ This project is an implementation of the transformer model as described in the p
 
 ### Model Details
 
-The model is a replication of the original 2017 transformer architecture however layer normalisation is done before the feed forward layer, also referred to as "Pre-Normalization" or "Pre-Layer Normalization". The model has 10,811,999 parameters and was trained on a single A100 GPU, taking approximately 30 minutes to complete the training process. Although a very small model, it is able to generate comprehensible lyrics in the style of drake.
+The model is a replication of the original 2017 transformer architecture however layer normalisation is done before the feed forward layer, also referred to as "Pre-Normalization" or "Pre-Layer Normalization". The model has 10,811,999 parameters and was trained on a single A100 GPU, taking approximately 30 minutes to complete the training process. Although a very small model, it functions decently well.
 
 ### Sample Generated Text
 

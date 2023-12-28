@@ -2,7 +2,7 @@
 
 ![Transformer Architecture](assets/drake-gpt.jpeg)
 
-This project is an implementation of the transformer model as described in the paper "Attention is All You Need" by Vaswani et al. (2017). The model is trained on a dataset of 66,000 lines of lyrics from Drake (`training-data.txt`), and generates unique lyrics in the style of Drake. The data was downloaded from HuggingFace's huggingartists (https://huggingface.co/huggingartists/drake)
+This project is an implementation of the transformer model as described in the paper "Attention is All You Need" by Vaswani et al. (2017). The model is trained on a dataset of 66,000 lines of lyrics from Drake (`training-data.txt`), and generates unique lyrics in the style of Drake. The data was downloaded from HuggingFace's huggingartists
 
 ### Model Details
 

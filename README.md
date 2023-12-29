@@ -6,7 +6,7 @@ This project is an implementation of the transformer model as described in the p
 
 ### Model Details
 
-The model is a replication of the original 2017 transformer architecture however layer normalisation is done before the feed forward layer, also referred to as "Pre-Normalization" or "Pre-Layer Normalization". The model has 10,811,999 parameters and was trained on a single A100 GPU, taking approximately 30 minutes to complete the training process. Although a very small model, it functions decently well.
+The model is a decoder-only replication of the original 2017 transformer architecture however layer normalisation is done before the feed forward layer, also referred to as "Pre-Normalization" or "Pre-Layer Normalization". The model has 10,811,999 parameters and was trained on a single A100 GPU, taking approximately 30 minutes to complete the training process. Although a very small model, it functions decently well.
 
 ### Sample Generated Text
 
@@ -33,7 +33,7 @@ To run the model locally, follow these steps:
 
 1. Download the trained model file (.pth) from this link: https://drive.google.com/file/d/1vGvn0WVMcWacc5HNGPs9JXvhqg4YmB9A/view?usp=sharing
 2. Place the downloaded .pth file in the same directory as the Python scripts.
-3. Run the use_model.py script to generate text, modify output location and max sequence length (max_new_tokens)
+3. Run the use_model.py script to generate text, can modify output location and max sequence length (max_new_tokens)
 
 ### Main Files
 
